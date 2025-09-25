@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.35, for macos13 (x86_64)
 --
--- Host: <vps>    Database: defaultdb
+-- Host: <vps>    Database: tnb-db-develop
 -- ------------------------------------------------------
 -- Server version	8.0.43-0ubuntu0.24.04.1
 
@@ -16,14 +16,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `defaultdb`
+-- Current Database: `tnb-db-develop`
 --
 
-/*!40000 DROP DATABASE IF EXISTS `defaultdb`*/;
+/*!40000 DROP DATABASE IF EXISTS `tnb-db-develop`*/;
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `defaultdb` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `tnb-db-develop` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
 
-USE `defaultdb`;
+USE `tnb-db-develop`;
 
 --
 -- Table structure for table `callcenterqueue`
@@ -1412,11 +1412,11 @@ INSERT INTO `users` VALUES (1,2,1,'a1',1,0,0,'alexismorales86@gmail.com','a1',''
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'defaultdb'
+-- Dumping events for database 'tnb-db-develop'
 --
 
 --
--- Dumping routines for database 'defaultdb'
+-- Dumping routines for database 'tnb-db-develop'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
